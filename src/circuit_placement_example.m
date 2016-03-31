@@ -30,7 +30,7 @@ Circuits_size = ones(2,N);
 embedding_init = 0; % if 1, the first init. will be the Laplacian embedding
 iterations = 150; % maximum number of iterations
 Tau_init = 0.2;
-Tau_inc = 5;
+Tau_inc = 1.1;
 Tau_max = 1e4;
 
 %% Laplacian embedding for an Erdos-Renyi random graph
