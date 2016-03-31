@@ -29,7 +29,7 @@ Circuits_size = ones(2,N);
 %% Algorithm parameters
 embedding_init = 0; % if 1, the first init. will be the Laplacian embedding
 iterations = 150; % maximum number of iterations
-Tau_init = 0.2;
+Tau_init = 4;
 Tau_inc = 1.1;
 Tau_max = 1e4;
 
